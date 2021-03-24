@@ -1,3 +1,7 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 #header {
     display: flex;
     align-items: center;
@@ -26,6 +30,25 @@
     font-size: 20px;
 }
 
-#teste {
-    height: 5000px;
+#hero{
+    margin-top: 75px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#email {
+    width: 20%;
+    padding: 3px;
+}
+
+#submit {
+    margin: 15px;
+    width: 10%;
+    min-height: 25px;
+    text-transform: uppercase;
+    background-color: #f1c40f;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
