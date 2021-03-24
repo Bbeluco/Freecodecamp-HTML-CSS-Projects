@@ -57,6 +57,7 @@
 #container {
     width: 50%;
     margin: 0 auto;
+    margin-top: 75px;
 }
 
 #icon {
@@ -68,7 +69,9 @@
 
 .features-benefits {
     display: flex;
+    padding-top: 40px;
 }
+
 
 #desc {
     font-size: 20px;
