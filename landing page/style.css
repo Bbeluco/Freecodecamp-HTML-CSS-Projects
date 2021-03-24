@@ -55,7 +55,7 @@
 }
 
 #container {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 75px;
 }
@@ -72,6 +72,11 @@
     padding-top: 40px;
 }
 
+#title-pricing {
+    margin: 0;
+    line-height: 40px;
+    background-color: #ddd;
+}
 
 #desc {
     font-size: 20px;
@@ -84,6 +89,50 @@
 }
 
 #video {
-    width: 100%;
-    margin-top: 50px;
+    width: 70%;
+}
+
+#how-it-works {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#pricing {
+    padding-top: 50px;
+    display: flex;
+}
+
+#tenor, #bass, #valve {
+    border: 1px solid black;
+    width: 30%;
+    height: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+#price {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#submit-select {
+    margin-top: 10px;
+    background-color: #f1c40f;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    line-height: 25px;
+}
+
+#submit-select:hover {
+    background-color: orange;
+    transition-property: background-color;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+}
+
+#text {
+    margin: 0;
+    line-height: 30px;
 }
