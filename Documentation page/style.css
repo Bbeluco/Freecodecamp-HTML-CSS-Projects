@@ -1,0 +1,12 @@
+* {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: normal;
+}
+
+#content {
+    color: #4d4e53;
+}
+
+.list {
+    padding: 10px 0px 10px 0px;
+}
