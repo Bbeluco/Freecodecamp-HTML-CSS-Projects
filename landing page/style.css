@@ -68,6 +68,11 @@
     margin-right: 50px;
 }
 
+#features {
+    margin-top: 1000px;
+}
+
+
 .features-benefits {
     display: flex;
     padding-top: 40px;
@@ -112,7 +117,23 @@
     padding-bottom: 20px;
 }
 
+@media(max-width: 1070px) {
+    #nav-option {
+        display: block;
+        padding: 0
+    }
+}
+
 @media (max-width: 950px) {
+    #header {
+        display: block;
+        text-align: center;
+    }
+
+    #nav-option {
+        display: block;
+    }
+
     #pricing {
         display: block;   
     }
