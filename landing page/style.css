@@ -109,15 +109,20 @@
     height: 50%;
     margin: 20px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 @media (max-width: 950px) {
     #pricing {
-        display: block;    
+        display: block;   
     }
 
     #tenor, #bass, #valve {
+        width: 100%;
+    }
 
+    #video {
+        width: 100%;
     }
 }
 
@@ -158,7 +163,8 @@
 #btn-footer {
     text-decoration: none;
     color: black;
-    padding-right: 20px
+    padding-right: 20px;
+    margin-bottom: 10px;
 }
 
 #copyright {
