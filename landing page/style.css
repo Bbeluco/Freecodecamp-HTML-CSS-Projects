@@ -68,11 +68,6 @@
     margin-right: 50px;
 }
 
-#features {
-    margin-top: 1000px;
-}
-
-
 .features-benefits {
     display: flex;
     padding-top: 40px;
@@ -122,9 +117,25 @@
         display: block;
         padding: 0
     }
+
+    #hero {
+        margin-top: 115px;
+    }
 }
 
 @media (max-width: 950px) {
+    #hero {
+        margin-top: 175px;
+    }
+
+    #email {
+        width: 60%;
+    }
+
+    #submit {
+        width: 30%;
+    }
+
     #header {
         display: block;
         text-align: center;
