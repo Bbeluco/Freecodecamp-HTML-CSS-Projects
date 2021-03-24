@@ -21,6 +21,7 @@
     padding: 30px;
     position: inherit;
     right: 0;
+    background-color: white;
 }
 
 #nav-option {
@@ -51,4 +52,30 @@
     font-weight: bold;
     border: none;
     cursor: pointer;
+}
+
+#container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#icon {
+    width: 50px;
+    filter: invert(82%) sepia(37%) saturate(2484%) hue-rotate(359deg) brightness(103%) contrast(89%);
+    justify-self: center;
+    margin-right: 50px;
+}
+
+.features-benefits {
+    display: flex;
+}
+
+#desc {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#organize {
+    display: block
 }
