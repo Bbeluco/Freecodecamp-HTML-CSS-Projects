@@ -22,10 +22,11 @@
 #sidebar{
     border-right: 2px solid rgba(0, 22, 22, 0.4);;
     height: 100vh;
-    width: 70%;
+    width: 20%;
     padding: 0;
     margin: 0;
     text-align: center;
+    position: fixed
 }
 
 #main-doc {
@@ -33,7 +34,7 @@
 }
 
 #topics {
-    margin-left: 15px;
+    margin-left: 22%;
 }
 
 #JS-title {
