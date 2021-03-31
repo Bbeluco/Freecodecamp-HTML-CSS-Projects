@@ -1,6 +1,7 @@
 * {
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: normal;
+    margin-left: 0;
 }
 
 #content {
@@ -16,4 +17,48 @@
     padding: 15px;
     margin: 15px;
     color: #4d4e53;
+}
+
+#sidebar{
+    border-right: 2px solid rgba(0, 22, 22, 0.4);;
+    height: 100vh;
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#main-doc {
+    display: flex;
+}
+
+#topics {
+    margin-left: 15px;
+}
+
+#JS-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+#hr-line {
+    width: 100%;
+}
+
+#section-in-page {
+    text-decoration: none;
+    color: black;
+}
+
+#item-sidebar {
+    text-align: left;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+#section-in-page {
+    line-height: 47px;
 }
