@@ -100,7 +100,7 @@ body {
 }
 
 #contact {
-    height: 100vh;
+    height: 70vh;
     background-color: var(--main-gray);
     display: flex;
     align-items: center;
@@ -145,4 +145,26 @@ body {
     justify-content: right;
     width: 17%;
     text-decoration: none;
+}
+
+#red-line {
+    border: 3px solid var(--main-red)
+}
+
+#footer {
+    background-color: var(--main-gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    color: var(--main-white);
+    font-weight: 300;
+}
+
+#msg {
+    padding-left: 50%;
+}
+
+#year {
+    padding-right: 10%;
 }
