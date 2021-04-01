@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#navbar {
+    border: 1px solid red;
+    text-align: right;
+}
+
+.links {
+    border: 1px solid blue;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    padding: 28px;
+    line-height: 70px;
+}
+
+.links:hover {
+    background-color: #303841;
+}
