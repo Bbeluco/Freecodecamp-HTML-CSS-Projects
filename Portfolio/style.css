@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --main-red: #be3144;
     --main-gray: #303841;
