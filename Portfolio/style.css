@@ -128,7 +128,7 @@ body {
     filter: invert(95%) sepia(1%) saturate(7498%) hue-rotate(206deg) brightness(117%) contrast(99%);
 }
 
-#social-media, #facebook, #github {
+#social-media, #facebook, #github, #linkedin, #email {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -141,7 +141,8 @@ body {
     padding-left: 5px;
 }
 
-#facebook, #github {
+#facebook, #github, #email, #linkedin {
     justify-content: right;
-    width: 17%
+    width: 17%;
+    text-decoration: none;
 }
