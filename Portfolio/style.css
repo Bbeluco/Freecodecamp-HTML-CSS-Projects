@@ -149,6 +149,11 @@ body {
     justify-content: right;
     width: 17%;
     text-decoration: none;
+    transition: 200ms linear;
+}
+
+#facebook:hover, #github:hover, #email:hover, #linkedin:hover {
+    transform: scale(1.1);
 }
 
 #red-line {
