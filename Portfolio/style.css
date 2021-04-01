@@ -99,3 +99,49 @@ body {
     text-decoration: none;
 }
 
+#contact {
+    height: 100vh;
+    background-color: var(--main-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title-contact {
+    color: var(--main-white);
+    font-size: 42px;
+}
+
+#title {
+    text-align: center;
+}
+
+#invite {
+    color: var(--main-white);
+    font-weight: 200;
+}
+
+#logo {
+    fill: white;
+    width: 24px;
+    filter: invert(95%) sepia(1%) saturate(7498%) hue-rotate(206deg) brightness(117%) contrast(99%);
+}
+
+#social-media, #facebook, #github {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+#social-media-name {
+    color: white;
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+#facebook, #github {
+    justify-content: right;
+    width: 17%
+}
