@@ -139,8 +139,10 @@ body {
 }
 
 #contact {
-    height: 70vh;
+    height: 70%;
     background-color: var(--main-gray);
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,6 +177,7 @@ body {
     width: 70%;
 }
 
+
 #social-media-name {
     color: white;
     font-size: 24px;
@@ -186,6 +189,17 @@ body {
     width: 17%;
     text-decoration: none;
     transition: 200ms linear;
+}
+
+@media(max-width: 960px){
+    #social-media, #facebook, #github, #linkedin, #email {
+        display: block;
+        text-align: center;
+    }
+    #facebook, #github, #email, #linkedin {
+        width: 100%;
+        display: flex;
+    }
 }
 
 #facebook:hover, #github:hover, #email:hover, #linkedin:hover {
