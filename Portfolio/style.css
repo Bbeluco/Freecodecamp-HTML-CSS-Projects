@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 :root {
     --main-red: #be3144;
     --main-gray: #303841;
@@ -199,6 +203,7 @@ body {
     #facebook, #github, #email, #linkedin {
         width: 100%;
         display: flex;
+        padding-left: 20%;
     }
 }
 
