@@ -62,11 +62,40 @@ body {
 }
 
 #projects {
+    display: block;
     text-align: center;
     background-color: var(--main-blue);
     height: 120vh;
-    padding: 100px 20px;
+    width:100%;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 20px;
+}
 
+@media(max-width: 1200px) {
+    #projects {
+        height: 250vh
+    }
+}
+
+@media(max-width: 926px) {
+    #projects{
+        height: 300vh;
+    }
+
+    #project-section {
+        margin-bottom: 40px
+    }
+
+    #facebook,#linkedin,#github,#email {
+        flex-basis:100%;
+    }
+}
+
+@media(max-height: 500px) {
+    #projects {
+        height: 20%;
+    }
 }
 
 #title-projects {
@@ -76,14 +105,13 @@ body {
 
 #project-section {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-template-rows: 1fr 1fr;
-    row-gap: 50px;
-    column-gap: 15px;
-    padding-top: 50px;
-    height: 700px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     width: 70%;
-    margin: auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
 #project-image {
@@ -110,6 +138,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 }
 
 #title-contact {
@@ -168,6 +197,7 @@ body {
     height: 20vh;
     color: var(--main-white);
     font-weight: 300;
+    width: 100%;
 }
 
 #msg {
