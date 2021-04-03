@@ -65,38 +65,13 @@ body {
     display: block;
     text-align: center;
     background-color: var(--main-blue);
-    height: 120vh;
+    height: 100%;
     width:100%;
     justify-content: center;
-    align-content: center;
+    align-items:center;
     padding-bottom: 20px;
 }
 
-@media(max-width: 1200px) {
-    #projects {
-        height: 250vh
-    }
-}
-
-@media(max-width: 926px) {
-    #projects{
-        height: 300vh;
-    }
-
-    #project-section {
-        margin-bottom: 40px
-    }
-
-    #facebook,#linkedin,#github,#email {
-        flex-basis:100%;
-    }
-}
-
-@media(max-height: 500px) {
-    #projects {
-        height: 20%;
-    }
-}
 
 #title-projects {
     color: var(--main-white);
@@ -105,13 +80,45 @@ body {
 
 #project-section {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     width: 70%;
+    min-height: 100%;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    justify-content: center;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media(max-width: 600px) {
+    #project-section {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+@media(max-width: 420px) {
+    #project-section {
+        grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    }
+}
+
+@media(max-width: 380px) {
+    #project-section {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+@media(max-width: 320px) {
+    #project-section {
+        grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    }
+}
+
+@media(max-width: 280px) {
+    #project-section {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
 }
 
 #project-image {
