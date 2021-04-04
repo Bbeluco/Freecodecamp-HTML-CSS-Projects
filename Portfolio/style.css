@@ -125,6 +125,18 @@ body {
     }
 }
 
+@media(max-width: 366px) {
+    #navbar {
+        text-align: center;
+    }
+
+    .links {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0;
+    }
+}
+
 #project-image {
     display: block;
     width: 100%;
@@ -203,9 +215,10 @@ body {
     #facebook, #github, #email, #linkedin {
         width: 100%;
         display: flex;
-        padding-left: 20%;
+        padding-left: 0%;
     }
 }
+
 
 #facebook:hover, #github:hover, #email:hover, #linkedin:hover {
     transform: scale(1.1);
